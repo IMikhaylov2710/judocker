@@ -6,7 +6,7 @@
 4)  *Если без вывода в терминал (detached):* \
         run --name judocker -d -v dockerData:/usr/src/app/data -p 8888:8888 judocker \
     *Если с выводом в терминал:* \
-        run --name judocker -v dockerData:/usr/src/app/data -p 8888:8888 judocker \
+        run --name judocker -v dockerData:/usr/src/app/data -p 8888:8888 judocker
 5) чтобы увидеть токен - docker logs judocker
 
 NB создается volume dockerData, папка ~/data ее повторяет
